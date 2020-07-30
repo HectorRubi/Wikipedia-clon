@@ -99,3 +99,75 @@ main .main-languages {
 .language-pol {
     margin-right: 90px;
 }
+
+main .main-search {
+    width: 546px;
+    margin: 0 auto;
+}
+.main-search .main-search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-search-container .search-input {
+    width: 73%;
+    height: 44px;
+    border: 1px solid #a2a9b1;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+.main-search-container .search-input:hover {
+    border-color: #72777d;
+}
+.main-search-container .search-input:focus-within {
+    border: 2px solid #3366cc;
+}
+.main-search-container .search-input input {
+    width: 85%;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.main-search-container .search-input select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 46px;
+    border: none;
+    color: #54595d;
+    background-image: url('https://kurikulum.az/assets/img/dropdown.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center right;
+    cursor: pointer;
+}
+.main-search-container .search-input select:hover {
+    background-color: #f8f9fa;
+    padding: 5px 0;
+} 
+.main-search-container .search-icon-container {
+    width: 56px;
+    height: initial;
+    background-color: #3366cc;
+    border: 1px solid #3366cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+}
+.main-search-container .search-icon-container:hover {
+    background-color: #447ff5;
+    border-color: #447ff5;
+}
+.search-icon-container .search-icon {
+    display: block;
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-46c49284.svg');
+    background-repeat: no-repeat;
+    background-position: 0 -697px;
+    width: 22px;
+    height: 22px;
+}
