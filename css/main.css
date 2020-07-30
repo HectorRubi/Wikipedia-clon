@@ -375,3 +375,24 @@ footer .footer-container {
     width: 37px;
     height: 37px;
 }
+
+footer .footer-absolute {
+    color: #54595d;
+}
+.footer-absolute a {
+    color: #36c;
+}
+.footer-absolute a:hover {
+    text-decoration: underline;
+}
+.footer-absolute ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.footer-absolute ul .clean {
+    list-style-type: none;
+}
+.footer-absolute ul li {
+    padding-right: 20px;
+}
