@@ -4,6 +4,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
 }
+a {
+    text-decoration: none;
+}
 
 header {
     width: 270px;
@@ -18,7 +21,7 @@ header h1 .header-title {
     background-image: url('https://tentulogo.com/wp-content/uploads/1280px-Wikipedia_wordmark.svg_-1024x174.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 176px;
+    background-size: contain;
     width: inherit;
     height: 32px;
 }
@@ -30,4 +33,69 @@ header h1 .header-subtitle {
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 2.2rem;
+}
+
+main .main-languages {
+    background-image: url('https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    width: 546px;
+    height: 325px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-languages .main-languages-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-languages span,
+.main-languages small {
+    display: block;
+    text-align: center;
+}
+.main-languages span {
+    color: rgb(51, 102, 204);
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-languages small {
+    color: rgb(84, 89, 93);
+    font-size: 13px;
+}
+.main-languages a:hover span {
+    text-decoration: underline;
+}
+.language-esp {
+    margin-left: 85px;
+}
+.language-eng {
+    margin-right: 90px;
+}
+.language-chi {
+    margin-left: 40px;
+}
+.language-ger {
+    margin-right: 40px;
+}
+.language-rus {
+    margin-left: 22px;
+}
+.language-fra {
+    margin-right: 22px;
+}
+.language-ita {
+    margin-left: 40px;
+}
+.language-jap {
+    margin-right: 40px;
+}
+.language-por {
+    margin-left: 85px;
+}
+.language-pol {
+    margin-right: 90px;
 }
